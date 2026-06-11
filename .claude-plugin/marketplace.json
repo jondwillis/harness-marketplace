@@ -1,0 +1,43 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "harness-marketplace",
+  "description": "Jon Williams' Claude Code plugins — macOS integrations and harness tooling, each tracking its own repo's main branch",
+  "owner": {
+    "name": "Jon Williams",
+    "email": "jon@jondwillis.com"
+  },
+  "plugins": [
+    {
+      "name": "imessage",
+      "description": "Read-only access to macOS iMessage/SMS/RCS conversations via the Messages SQLite database. Decodes the attributedBody typedstream so search and read see every message, not just the few with a non-NULL text column.",
+      "author": { "name": "Jon Williams" },
+      "category": "productivity",
+      "source": { "source": "github", "repo": "jondwillis/imessage-plugin", "ref": "main" },
+      "homepage": "https://github.com/jondwillis/imessage-plugin"
+    },
+    {
+      "name": "notes-app",
+      "description": "Full CRUD operations for macOS Notes.app via AppleScript — notes, folders, accounts, and attachments.",
+      "author": { "name": "Jon Williams" },
+      "category": "productivity",
+      "source": { "source": "github", "repo": "jondwillis/notes-app-plugin", "ref": "main" },
+      "homepage": "https://github.com/jondwillis/notes-app-plugin"
+    },
+    {
+      "name": "functional-emotions",
+      "description": "Hook-based 'emotional priming' for Claude Code. Counters the desperation/urgency/sycophancy/goal-conflict patterns shown to causally drive reward hacking and capitulation.",
+      "author": { "name": "Jon Williams" },
+      "category": "alignment",
+      "source": { "source": "github", "repo": "jondwillis/functional-emotions", "ref": "main" },
+      "homepage": "https://github.com/jondwillis/functional-emotions"
+    },
+    {
+      "name": "waggledance-plugin",
+      "description": "Plan-graph optimizer for Claude Code. Decomposes plan-mode output into a level-keyed DAG, surfaces the critical path and parallelism opportunities, and supports replan/expand.",
+      "author": { "name": "Jon Williams" },
+      "category": "planning",
+      "source": { "source": "github", "repo": "jondwillis/waggledance-plugin", "ref": "main" },
+      "homepage": "https://github.com/jondwillis/waggledance-plugin"
+    }
+  ]
+}
