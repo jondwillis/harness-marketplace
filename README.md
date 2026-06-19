@@ -13,6 +13,7 @@ tracks the `main` branch of the plugin's own repository — install once, get th
 # Then install any of the plugins
 /plugin install imessage@harness-marketplace
 /plugin install notes-app@harness-marketplace
+/plugin install calendar-app@harness-marketplace
 /plugin install functional-emotions@harness-marketplace
 /plugin install waggledance-plugin@harness-marketplace
 ```
@@ -26,6 +27,7 @@ reinstall or `/reload-plugins`.
 |--------|--------------|--------|
 | **imessage** | Read-only macOS iMessage/SMS/RCS reader. Decodes `attributedBody` so search/read see every message, not just the few with a non-NULL `text` column. | [imessage-plugin](https://github.com/jondwillis/imessage-plugin) |
 | **notes-app** | Full CRUD for macOS Notes.app via AppleScript — notes, folders, accounts, attachments. | [notes-app-plugin](https://github.com/jondwillis/notes-app-plugin) |
+| **calendar-app** | Full CRUD for macOS Calendar.app via AppleScript — events, calendars, attendees, alarms, recurrence. Robust component-built dates and date-bounded queries. | [calendar-app-plugin](https://github.com/jondwillis/calendar-app-plugin) |
 | **functional-emotions** | Hook-based "emotional priming" that counters desperation/urgency/sycophancy patterns shown to drive reward hacking and capitulation. | [functional-emotions](https://github.com/jondwillis/functional-emotions) |
 | **waggledance-plugin** | Plan-graph optimizer — decomposes plan-mode output into a level-keyed DAG, surfaces critical path and parallelism, supports replan/expand. | [waggledance-plugin](https://github.com/jondwillis/waggledance-plugin) |
 

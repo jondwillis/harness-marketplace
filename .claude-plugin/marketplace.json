@@ -24,6 +24,14 @@
       "homepage": "https://github.com/jondwillis/notes-app-plugin"
     },
     {
+      "name": "calendar-app",
+      "description": "Full CRUD operations for macOS Calendar.app via AppleScript — events, calendars, attendees, alarms, and recurrence (RRULE). Builds dates by component with a day-overflow guard and keeps queries date-bounded for performance.",
+      "author": { "name": "Jon Williams" },
+      "category": "productivity",
+      "source": { "source": "github", "repo": "jondwillis/calendar-app-plugin", "ref": "main" },
+      "homepage": "https://github.com/jondwillis/calendar-app-plugin"
+    },
+    {
       "name": "functional-emotions",
       "description": "Hook-based 'emotional priming' for Claude Code. Counters the desperation/urgency/sycophancy/goal-conflict patterns shown to causally drive reward hacking and capitulation.",
       "author": { "name": "Jon Williams" },
